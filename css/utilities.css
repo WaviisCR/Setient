@@ -9,7 +9,7 @@
 }
 @font-face{
 	font-family: Proximanovalight;
-	src: url(../fonts/proxima nova/proximanova-light-webfont.ttf);
+	src: url(../fonts/proxima-nova/proximanova-light-webfont.ttf);
 }
 @font-face{
 	font-family: Proximanovaregitalic;
@@ -28,6 +28,7 @@
 .pd-5{
 	padding: 5%;
 }
+
 .pd-7{
 	padding: 7%;
 }
@@ -59,6 +60,9 @@
 .text-left{
 	text-align: left;
 }
+.text-right{
+	text-align: right;
+}
 .text-white{
 	color: white;
 }
@@ -72,4 +76,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+}
+.d-ib{
+	display: inline-block;
 }
