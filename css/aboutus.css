@@ -1,0 +1,9 @@
+.titulo{
+	font-family: Proximanovaregular;
+}
+.imgrotar{
+	transform: rotate(180deg);
+}
+.bg-blue{
+	background: url("../img/");
+}
