@@ -59,6 +59,9 @@
 .text-left{
 	text-align: left;
 }
+.text-right{
+	text-align: right;
+}
 .text-white{
 	color: white;
 }
@@ -72,4 +75,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+}
+.d-ib{
+	display: inline-block;
 }
