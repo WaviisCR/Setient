@@ -1,6 +1,6 @@
 /*Global*/
 *{
-	font-family: "proxima-nova";
+	font-family: "Proximanovalight";
 }
 
 @font-face{
@@ -9,7 +9,7 @@
 }
 @font-face{
 	font-family: Proximanovalight;
-	src: url(../fonts/proxima-nova/proximanova-light-webfont.ttf);
+	src: url(../fonts/proxima nova/proximanova-light-webfont.ttf);
 }
 @font-face{
 	font-family: Proximanovaregitalic;
