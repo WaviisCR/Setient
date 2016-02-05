@@ -1,0 +1,55 @@
+
+
+/* Shortcuts */
+
+.pd-0{
+	padding: 0;
+}
+.pd-5{
+	padding: 5%;
+}
+.pd-7{
+	padding: 7%;
+}
+.pd-10{
+	padding: 10%;
+}
+.pb-5{
+	padding-bottom: 5%;
+}
+.pl-15{
+	padding-left: 15%;
+}
+.pdlr-12{
+	padding-left: 12%;
+    padding-right: 12%
+}
+.mg-0{
+	margin: 0;
+}
+.w-100{
+	width: 100%;
+}
+.lh{
+	line-height: 1.5;
+}
+.text-center{
+	text-align: center;
+}
+.text-left{
+	text-align: left;
+}
+.text-white{
+	color: white;
+}
+.text-gray{
+	color: rgb(83, 88, 95);
+}
+.anone{
+	text-decoration: none;
+}
+.bg-img-block{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
