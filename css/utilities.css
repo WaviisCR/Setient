@@ -1,4 +1,7 @@
 /*Global*/
+*{
+	font-family: "Proximanovalight";
+}
 
 @font-face{
 	font-family: Proximanovabold;
@@ -19,6 +22,28 @@
 
 /* Shortcuts */
 
+
+.mg-0{
+	margin: 0;
+}
+.w-100{
+	width: 100%;
+}
+.lh{
+	line-height: 1.5;
+}
+
+.anone{
+	text-decoration: none;
+}
+.bg-img-block{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.d-ib{
+	display: inline-block;
+}
 /* Util class */
 .pr-l {
     position: relative;
@@ -85,6 +110,32 @@
     margin-bottom: 5%
  }
 /*PADDING*/
+.pd-0{
+	padding: 0;
+}
+.pd-5{
+	padding: 5%;
+}
+
+.pd-7{
+	padding: 7%;
+}
+.pd-10{
+	padding: 10%;
+}
+.pb-5{
+	padding-bottom: 5%;
+}
+.pt-5{
+	padding-top:5%; 
+}
+.pl-15{
+	padding-left: 15%;
+}
+.pdlr-12{
+	padding-left: 12%;
+    padding-right: 12%
+}
  .pd-2{
     padding: 2%;
  }
@@ -164,8 +215,7 @@
 }
 .pdb-8{
     padding-bottom: 8%;
-
-
+}
 .pl-7{
     padding-left: 7px;
 }
@@ -183,12 +233,22 @@
 .font{
  	font-size: 3em;
  }
- .dsct{
- 	color: #C79355;
-    font-size: 1em;
-    font-weight: lighter;
-    margin-top: 2%;
- }
+ .text-center{
+	text-align: center;
+}
+.text-left{
+	text-align: left;
+}
+.text-right{
+	text-align: right;
+}
+.text-white{
+	color: white;
+}
+.text-gray{
+	color: rgb(83, 88, 95);
+}
+
 /*DISPLAY*/
 .d-ib{
     display: inline-block;
@@ -197,3 +257,4 @@
 .d-b{
     display: block;
 }
+
