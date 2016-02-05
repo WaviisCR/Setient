@@ -1,0 +1,6 @@
+.intro{
+	background: url(../img/hero-image.jpg);
+	background-size:contain;
+	color: white;
+	font-family: Proximanovabold;
+}
