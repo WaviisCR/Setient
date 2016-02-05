@@ -1,4 +1,24 @@
+/*Global*/
+*{
+	font-family: "proxima-nova";
+}
 
+@font-face{
+	font-family: Proximanovabold;
+	src: url(../fonts/proxima-nova/proximanova-bold-webfont.ttf);
+}
+@font-face{
+	font-family: Proximanovalight;
+	src: url(../fonts/proxima-nova/proximanova-light-webfont.ttf);
+}
+@font-face{
+	font-family: Proximanovaregitalic;
+	src: url(../fonts/proxima-nova/proximanova-regitalic-webfont.ttf);
+}
+@font-face{
+	font-family: Proximanovaregular;
+	src: url(../fonts/proxima-nova/proximanova-regular-webfont.ttf);
+}
 
 /* Shortcuts */
 
