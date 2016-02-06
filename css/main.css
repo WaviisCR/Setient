@@ -8,6 +8,13 @@
 /*Section Stuff*/ 
 .box-content{
 	height: 240px;
+	width: 100%;
 	padding: 5%;
 	border: silver 1px solid;
+}
+
+/*Contact Section*/
+.contact{
+	background: url(../img/background-contact-us.jpg);
+	background-size: contain;
 }
