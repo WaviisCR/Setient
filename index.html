@@ -1,33 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<title>Setient</title>
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/utilities.css">
-	<link rel="stylesheet" type="text/css" href="css/common.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
-		<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-</head>
-
-<body>
-	<header>
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-6 Logo">
-					<a href="index.html"><img src="img/logo-iconos/sentient-logo.png"></a>
+		<meta charset="UTF-8">
+		<title>Setient</title>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/utilities.css">
+		<link rel="stylesheet" type="text/css" href="css/common.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/aboutus.css">
+		<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-default">
+				<div class="container">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="#">
+						<img class="img-logo" src="img/logo-iconos/sentient-logo.png">
+						</a>
+					</div>
+					<div class="collapse navbar-collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="aboutus.html">About SIM</a></li>
+							<li><a href="#contact">Contact us</a></li>
+						</ul>
+					</div>
 				</div>
-				<div class="col-sm-6">
-					<nav text-right>
-						<a class="anone" href="aboutus.html">About SIM |</a>
-						<a class="anone" href="#Contact"> Contact us</a>
-					</nav>
-				</div>
-			</div>
-		</div>
-	</header>
+			</nav>
+		</header>
 
 	<section class="intro">
 		<div class="row">
@@ -85,7 +86,7 @@
 		</div>
 	</section>
 
-	<section class="contact text-center">
+	<section id="contact" class="contact text-center">
 		<div class="container">
 			<div class="row">
 				<div class="col-4"></div>
@@ -95,14 +96,25 @@
 				</div>
 				<div class="comtainer form">
 					<form>
-						<div class="col-sm-5">
+						<div class="col-md-4 col-md-offset-4">
 							<input type="text" placeholder="Name" class="form-control">
 						</div>
 						
-						<input type="text" placeholder="Company" class="form-control">	
+						<div class="col-md-4 col-md-offset-4">
+						<input type="text" placeholder="Company" class="form-control">
+						</div>
+
+						<div class="col-md-4 col-md-offset-4">	
 						<input type="text" placeholder="E-mail" class="form-control">	
+						</div>
+
+						<div class="col-md-4 col-md-offset-4">
 						<input type="text" placeholder="Message" class="form-control">
+						</div>
+
+						<div class="col-md-4 col-md-offset-4">
 						<button type="submit" class="btn"> Send </button>
+						</div>
 					</form>		
 				</div>
 				<div class="col-4"></div>
