@@ -1,16 +1,74 @@
 .titulo{
 	font-family: Proximanovaregular;
+	color: #002366;
 }
 .imgrotar{
 	transform: rotate(180deg);
+	margin-left: 5px;
 }
 .bg-blue{
 	background: url("../img/background-about-us.jpg");
 	background-size: cover;
 	margin-top: 7%;
 }
+.h3-gb-blue{
+	font-size: 30px;
+	font-family: Proximanovalight;
+	padding-top: 5%;
+}
 .btn-blue{
 	background-color: #002366;
-	padding: 1% 3%;
-
+	padding: 0.5% 2%;
+	font-size: 18px;
+	margin-top: 20px;
 }
+@media screen and (max-width: 480px) {
+    .bg-blue {
+        visibility: hidden;
+    }
+}
+.navbar-brand{
+	padding: 0;
+}
+.img-logo{
+	height: 50px;
+}
+.frases{
+	margin-top: 40px;
+}
+.frasecomillas{
+	list-style-image: url("../img/logo-iconos/quote.png");
+	font-size: 24px;
+}
+.frase-sin-comillas{
+	font-family: Proximanovaregular;
+	font-size: 18px;
+}
+.text-bg-blue{
+	padding:0 24%;
+	margin-top: 45px;
+	margin-bottom: 60px;
+	font-family: Proximanovaregular;
+	font-size: 14px;
+}
+.btn-transparente{
+	background: transparent;
+	color: white;
+	padding-left: 30%;
+}
+.text-btn{
+	font-size: 18px;
+	text-align: left;
+	float: right;
+}
+.btn-bgblue{
+	padding: 0% 24%;
+}
+.btn-bg-blue{
+	text-align: right;
+	float: left;
+}
+.pd-lr{
+	padding:0 40% 0 40%;
+}
+

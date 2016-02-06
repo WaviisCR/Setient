@@ -1,70 +1,116 @@
 <!DOCTYPE html>
 <html>
-	
 	<head>
 		<meta charset="UTF-8">
 		<title>Setient</title>
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/utilities.css">
 		<link rel="stylesheet" type="text/css" href="css/common.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<link rel="stylesheet" type="text/css" href="css/aboutus.css">
 		<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	</head>
 	<body>
 		<header>
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-6 Logo">
-						<a href="index.html"><img src="img/logo-iconos/sentient-logo.png"></a>
+			<nav class="navbar navbar-default">
+				<div class="container">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="#">
+						<img class="img-logo" src="img/logo-iconos/sentient-logo.png">
+						</a>
 					</div>
-					<div class="col-sm-6">
-						<nav>
-							<a href="aboutus.html">About SIM |</a>
-							<a href="#Contact"> Contact us</a>
-						</nav>
+					<div class="collapse navbar-collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#">About SIM</a></li>
+							<li><a href="#">Contact us</a></li>
+						</ul>
 					</div>
 				</div>
-			</div>
+			</nav>
 		</header>
-		<section class="text-center">
+		<section class="titulo-frase text-center">
 			<div class="container">
 				<div class="row">
-					<h1 class="titulo">Trading, Envolved</h1>
+					<div class="col-md-12">
+						<h1 class="titulo">Trading, Envolved.</h1>
+					</div>
 				</div>
 			</div>
 		</section>
 		<section class="frase_superior">
 			<div class="container">
-				<div class="row">
-					<div class="col-sm-6">
-						<img src="img/logo-iconos/quote.png"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, mollitia, optio rerum dignissimos quia cumque laborum assumenda fugiat eaque. Ipsum!</p><img class="imgrotar" src="img/logo-iconos/quote.png">
+				<div class="row frases">
+					<div class="col-md-6">
+						<ul class="frasecomillas"><li>Sentient Investment Management utilizes propietary. patented artificial intelligence technologies to spur continual evolution of its investment strategies.<span><img class="imgrotar" src="img/logo-iconos/quote.png"></span></li></ul>
 					</div>
-					<div class="col-sm-6">
-						<img src="img/logo-iconos/quote.png">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, mollitia, optio rerum dignissimos quia cumque laborum assumenda fugiat eaque. Ipsum!</p>
-						<img class="imgrotar" src="img/logo-iconos/quote.png">
+					<div class="col-md-6">
+						<p class="frase-sin-comillas">Combining evolutionary intelligence technologies, deep learning algorithms and other techniques that identify and propagate the most successful strategies, SIM's distributed artificial intelligence system is continuously processing and learning from enormous stockpiles of data, developing investment strategies in groundbreaking new ways.</p>
 					</div>
 				</div>
 			</div>
 		</section>
 		<section class="section-bg">
-			<div class="container-fluid">
-				<div class="row bg-blue text-white text-center">
-					<h2>Evolve your Career</h2>
-					<a class="text-white anone btn-blue">Read all about careers</a>
+			<div class="container-fluid bg-blue text-white">
+				<div class="row text-center">
+					<div class="col-md-12">
+						<h3 class="h3-gb-blue">Evolve your Career.</h3>
+						<button type="button" class="btn btn-primary btn-blue">Read all abut careers</button>
+					</div>
 				</div>
-				<div class="row">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, porro provident dolorum dolorem magni est quos alias qui! Autem eveniet, asperiores optio. Sequi aperiam, officia nesciunt perspiciatis praesentium ullam labore!</p>
+				<div class="row text-center">
+					<div class="col-md-12">
+						<p class="text-bg-blue">Sentient Investment Management offers great opportunities for the brightest minds in engineering, science and business to innovate, experiment, learn and grow in a fast-paced and challenging environment. Our team in made up of analysts, scientists and engineers with dozens of patents, awards and decades of experience in the equity and technology markets.</p>
+					</div>
 				</div>
-			</div>
-		</section>
-
-			
-		<script type="js/jquery.js"></script>
-		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-	</body>
-</html>
+				<div class="row btn-bgblue">
+					<div class="col-md-8">
+						<p class="text-btn">Sound like you? If so, please apply for one of the positions.</p>
+					</div>
+					<div class="col-md-4 btn-bg-blue">
+						<button type="button" class="btn btn-info pd-lr">Apply</button>
+					</div>
+				</div>
+				<div class="row btn-bgblue">
+					<div class="col-md-8">
+						<p class="text-btn">Please drop us a line and let us know how you might contribute to our growing team.</p>
+					</div>
+					<div class="col-md-4 btn-bg-blue">
+						<button type="button" class="btn btn-default btn-transparente pd-lr">Contact form</button>
+					</div>
+				</div>
+			</section>
+			<form class="navbar-form navbar-left" role="search">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Search">
+							</div>
+							<button type="submit" class="btn btn-default">Submit</button>
+						</form>
+					</div>
+				</div>
+				<div class="col-sm-12 col-xs-12 ">
+					<form class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Search">
+						</div>
+						<button type="submit" class="btn btn-default">Submit</button>
+					</form>
+				</div>
+				<div class="col-sm-12 hidden-lg">
+					<form class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Search">
+						</div>
+						<button type="submit" class="btn btn-default">Submit</button>
+					</form></div>
+					<div class="col-sm-12">
+						<form class="navbar-form navbar-left" role="search">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Search">
+							</div>
+							<button type="submit" class="btn btn-default">Submit</button>
+						</form>
+			<script type="js/jquery.js"></script>
+			<script type="js/bootstrap.min.js"></script>
+		</body>
+	</html>

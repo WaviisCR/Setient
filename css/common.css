@@ -1,11 +1,11 @@
 /*HEADER*/
-header .logo{
-	
-}	
 header .nav{
 	color:black;
-	font-size: 	30px;
 }
 header .nav a:hover{
 
+}
+.navbar-default{
+	background: white;
+	border-radius: 0;
 }
