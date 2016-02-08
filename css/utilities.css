@@ -109,6 +109,9 @@
  .mb-5{
     margin-bottom: 5%
  }
+ .mb-7{
+    margin-bottom: 7%
+ }
 /*PADDING*/
 .pd-0{
 	padding: 0;
@@ -131,10 +134,6 @@
 }
 .pl-15{
 	padding-left: 15%;
-}
-.pdlr-12{
-	padding-left: 12%;
-    padding-right: 12%
 }
  .pd-2{
     padding: 2%;

@@ -1,6 +1,7 @@
 .titulo{
 	font-family: Proximanovaregular;
 	color: #002366;
+	font-size: 50px;
 }
 .imgrotar{
 	transform: rotate(180deg);
@@ -11,9 +12,8 @@
 	background-size: cover;
 	margin-top: 7%;
 }
-.h3-gb-blue{
-	font-size: 30px;
-	font-family: Proximanovalight;
+.h2-gb-blue{
+	font-size: 45px;
 	padding-top: 5%;
 }
 .btn-blue{
@@ -21,11 +21,6 @@
 	padding: 0.5% 2%;
 	font-size: 18px;
 	margin-top: 20px;
-}
-@media screen and (max-width: 480px) {
-    .bg-blue {
-        visibility: hidden;
-    }
 }
 .navbar-brand{
 	padding: 0;
@@ -35,40 +30,84 @@
 }
 .frases{
 	margin-top: 40px;
+	color: #002366;
 }
 .frasecomillas{
 	list-style-image: url("../img/logo-iconos/quote.png");
 	font-size: 24px;
+	margin-right: 20px;
 }
 .frase-sin-comillas{
 	font-family: Proximanovaregular;
 	font-size: 18px;
 }
 .text-bg-blue{
-	padding:0 24%;
+	padding:0 30%;
 	margin-top: 45px;
 	margin-bottom: 60px;
-	font-family: Proximanovaregular;
 	font-size: 14px;
 }
-.btn-transparente{
-	background: transparent;
-	color: white;
-	padding-left: 30%;
-}
-.text-btn{
-	font-size: 18px;
-	text-align: left;
+.text-btn-blue{
 	float: right;
+	text-align: left;
+	font-size: 20px;
+	padding-right: 3%;
 }
-.btn-bgblue{
-	padding: 0% 24%;
+.mg-row{
+	margin:0 30%;
 }
-.btn-bg-blue{
-	text-align: right;
-	float: left;
+.btn-1{
+	
+	float: right;
+	padding-left: 20%;
+	padding-right: 20%;
 }
-.pd-lr{
-	padding:0 40% 0 40%;
+.btn-2{
+	float: right;
+	background: transparent;
+	border:1px white solid;
+}
+.pd-col8{
+	padding-right: 0px;
+}
+.h2-mngmt-blue{
+	font-size: 45px;
+	padding-top: 5%;
+	color: #002366;
+}
+.text-mngmt{
+	font-size: 14px;
+	font-family: Proximanovaregular;
+	padding:3% 30%;
+}
+.text-button{
+	color: #002366;
+	font-size: 14px;
+}
+.btn-mngmt{
+	background-color: #179AD6;
+	padding-left: 4%;
+	padding-right: 4%;
+	margin-top: 10px;
+}
+.bg-mngmt{
+	background: #f6f6f6;
+}
+.navbar-nav .aeiou{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: auto;
 }
 
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    .bg-blue {
+        visibility: hidden;
+    }
+}
