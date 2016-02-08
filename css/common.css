@@ -1,13 +1,19 @@
 /*HEADER*/
-.navbar-brand{
-	padding: 0;
+.navbar{
+
+	background-color: white;
 }
-.img-logo{
+.navbar img{
 	height: 50px;
 }
-.navbar-default{
-	background: white;
-	border-radius: 0;
+.navbar-toggle .icon-bar{
+	background-color: gray;
 }
 
 /*FOOTER*/
+.color-gray{
+	color:#979797;
+}
+.color-blue{
+	color:#002366;
+}
