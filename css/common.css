@@ -1,11 +1,13 @@
 /*HEADER*/
-header .nav{
-	color:black;
+.navbar-brand{
+	padding: 0;
 }
-header .nav a:hover{
-
+.img-logo{
+	height: 50px;
 }
 .navbar-default{
 	background: white;
 	border-radius: 0;
 }
+
+/*FOOTER*/

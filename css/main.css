@@ -15,6 +15,10 @@
 
 /*Contact Section*/
 .contact{
-	background: url(../img/background-contact-us.jpg);
-	background-size: contain;
+	background: url(../img/background-contac-us.jpg);
+	background-size: cover;
+	color:white;
+}
+.submit{
+	background-color: #179AD6;
 }

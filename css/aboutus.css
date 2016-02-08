@@ -22,12 +22,21 @@
 	font-size: 18px;
 	margin-top: 20px;
 }
+<<<<<<< HEAD
 .navbar-brand{
 	padding: 0;
 }
 .img-logo{
 	height: 50px;
 }
+=======
+@media screen and (max-width: 480px) {
+    .bg-blue {
+        visibility: hidden;
+    }
+}
+
+>>>>>>> 7c9b2c1261c6d7c17a7a3ea5f876d6eb884f6f6b
 .frases{
 	margin-top: 40px;
 	color: #002366;
