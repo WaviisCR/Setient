@@ -1,11 +1,19 @@
 /*HEADER*/
-header .nav{
-	color:black;
+.navbar{
+	padding-bottom: 20px;
+	background-color: white;
 }
-header .nav a:hover{
+.navbar img{
+	height: 50px;
+}
+.navbar-toggle .icon-bar{
+	background-color: gray;
+}
 
+/*FOOTER*/
+.color-gray{
+	color:#979797;
 }
-.navbar-default{
-	background: white;
-	border-radius: 0;
+.color-blue{
+	color:#002366;
 }

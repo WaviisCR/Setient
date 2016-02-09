@@ -25,20 +25,36 @@
 	font-size: 18px;
 	margin-top: 20px;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 680a475eda050cf13e9c89f9d939408973fdc06f
 .navbar-brand{
 	padding: 0;
 }
 .img-logo{
 	height: 50px;
 }
+=======
+@media screen and (max-width: 480px) {
+    .bg-blue {
+        visibility: hidden;
+    }
+}
+
+>>>>>>> 7c9b2c1261c6d7c17a7a3ea5f876d6eb884f6f6b
 .frases{
 	margin-top: 40px;
 	color: #002366;
+<<<<<<< HEAD
 	padding:0 4% 0 4%;
+=======
+>>>>>>> 680a475eda050cf13e9c89f9d939408973fdc06f
 }
 .frasecomillas{
 	list-style-image: url("../img/logo-iconos/quote.png");
 	font-size: 24px;
+	margin-right: 20px;
 }
 .width-frase{
 	width:425px;
@@ -57,12 +73,18 @@
 .text-btn-blue{
 	float: right;
 	text-align: left;
+<<<<<<< HEAD
 	font-size: 18px;
+=======
+	font-size: 20px;
+	padding-right: 3%;
+>>>>>>> 680a475eda050cf13e9c89f9d939408973fdc06f
 }
 .mg-row{
 	margin:0 30%;
 }
 .btn-1{
+<<<<<<< HEAD
 	float: right;
 	padding-left: 22%;
 	padding-right: 22%;
@@ -218,8 +240,59 @@
 
 
 
+=======
+	
+	float: right;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+.btn-2{
+	float: right;
+	background: transparent;
+	border:1px white solid;
+}
+.pd-col8{
+	padding-right: 0px;
+}
+.h2-mngmt-blue{
+	font-size: 45px;
+	padding-top: 5%;
+	color: #002366;
+}
+.text-mngmt{
+	font-size: 14px;
+	font-family: Proximanovaregular;
+	padding:3% 30%;
+}
+.text-button{
+	color: #002366;
+	font-size: 14px;
+}
+.btn-mngmt{
+	background-color: #179AD6;
+	padding-left: 4%;
+	padding-right: 4%;
+	margin-top: 10px;
+}
+.bg-mngmt{
+	background: #f6f6f6;
+}
+.navbar-nav .aeiou{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+}
+>>>>>>> 680a475eda050cf13e9c89f9d939408973fdc06f
 
 
 
 
 
+
+@media screen and (max-width: 480px) {
+    .bg-blue {
+        visibility: hidden;
+    }
+}
