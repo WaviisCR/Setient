@@ -107,6 +107,7 @@
 	float: left;
 	background-color: white;
 	text-decoration: none;
+	margin-left: 100px;
 }
 .founders-center{
 	float: center;
@@ -147,7 +148,7 @@
 }
 @media screen and (max-width: 480px) {
     .founders-left {
-        margin-left: 127px;
+        margin-left: 95px;
         margin-top: 15px;
         border: 1px #C9C9C9 solid;
 	}
@@ -155,7 +156,7 @@
 @media screen and (max-width: 480px) {
     .founders-center {
         margin-top: 15px;
-        margin-left: 130px;
+        margin-left: 95px;
         border: 1px #C9C9C9 solid;
         padding-right: 0;
         padding-left: 0;
