@@ -25,10 +25,6 @@
 	font-size: 18px;
 	margin-top: 20px;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 680a475eda050cf13e9c89f9d939408973fdc06f
 .navbar-brand{
 	padding: 0;
 }
@@ -41,15 +37,10 @@
         visibility: hidden;
     }
 }
-
->>>>>>> 7c9b2c1261c6d7c17a7a3ea5f876d6eb884f6f6b
 .frases{
 	margin-top: 40px;
 	color: #002366;
-<<<<<<< HEAD
 	padding:0 4% 0 4%;
-=======
->>>>>>> 680a475eda050cf13e9c89f9d939408973fdc06f
 }
 .frasecomillas{
 	list-style-image: url("../img/logo-iconos/quote.png");
@@ -73,18 +64,14 @@
 .text-btn-blue{
 	float: right;
 	text-align: left;
-<<<<<<< HEAD
 	font-size: 18px;
-=======
 	font-size: 20px;
 	padding-right: 3%;
->>>>>>> 680a475eda050cf13e9c89f9d939408973fdc06f
 }
 .mg-row{
 	margin:0 30%;
 }
 .btn-1{
-<<<<<<< HEAD
 	float: right;
 	padding-left: 22%;
 	padding-right: 22%;
@@ -236,16 +223,6 @@
      	margin: 0;
     }
  }
- 
-
-
-
-=======
-	
-	float: right;
-	padding-left: 20%;
-	padding-right: 20%;
-}
 .btn-2{
 	float: right;
 	background: transparent;
@@ -284,13 +261,6 @@
     text-align: center;
     margin: auto;
 }
->>>>>>> 680a475eda050cf13e9c89f9d939408973fdc06f
-
-
-
-
-
-
 @media screen and (max-width: 480px) {
     .bg-blue {
         visibility: hidden;
