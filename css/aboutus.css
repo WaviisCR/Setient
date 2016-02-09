@@ -31,6 +31,12 @@
 .img-logo{
 	height: 50px;
 }
+=======
+@media screen and (max-width: 480px) {
+    .bg-blue {
+        visibility: hidden;
+    }
+}
 .frases{
 	margin-top: 40px;
 	color: #002366;
@@ -39,6 +45,10 @@
 .frasecomillas{
 	list-style-image: url("../img/logo-iconos/quote.png");
 	font-size: 24px;
+	margin-right: 20px;
+}
+.width-frase{
+	width:425px;
 }
 .width-frase{
 	width:425px;
@@ -58,11 +68,17 @@
 	float: right;
 	text-align: left;
 	font-size: 18px;
+<<<<<<< HEAD
+=======
+	font-size: 20px;
+	padding-right: 3%;
+>>>>>>> 9953774e938e61e35c37dce48ac20a913fa2a4a5
 }
 .mg-row{
 	margin:0 30%;
 }
 .btn-1{
+<<<<<<< HEAD
 	float: right;
 	padding-left: 22%;
 	padding-right: 22%;
@@ -98,6 +114,43 @@
 .bg-mngmt{
 	background: #f6f6f6;
 }
+=======
+	float: right;
+	padding-left: 22%;
+	padding-right: 22%;
+}
+.btn-2{
+	float: right;
+	background: transparent;
+	border:1px white solid;
+}
+.pd-col8{
+	padding-right: 0px;
+}
+.h2-mngmt-blue{
+	font-size: 45px;
+	padding-top: 5%;
+	color: #002366;
+}
+.text-mngmt{
+	font-size: 14px;
+	font-family: Proximanovaregular;
+	padding:3% 30%;
+}
+.text-button{
+	color: #002366;
+	font-size: 20px;
+	padding:3% 30%;
+}
+.btn-mngmt{
+	background-color: #179AD6;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+.bg-mngmt{
+	background: #f6f6f6;
+}
+>>>>>>> 9953774e938e61e35c37dce48ac20a913fa2a4a5
 .founders-right{
 	float: right;
 	background-color: white;
@@ -107,6 +160,7 @@
 	float: left;
 	background-color: white;
 	text-decoration: none;
+<<<<<<< HEAD
 }
 .founders-center{
 	float: center;
@@ -221,4 +275,155 @@
 
 
 
+=======
+	margin-left: 100px;
+}
+.founders-center{
+	float: center;
+	background-color: white;
+	text-decoration: none;
+	width: 183px;
+	height: 230px;
+	margin-left: 40px;
+}
+.ref-img{
+	color: black;
+	font-family: Proximanovaregular;
+	font-size: 17px;
+}
+ .bg-founders{
+	background: #f6f6f6;
+ }
+>>>>>>> 9953774e938e61e35c37dce48ac20a913fa2a4a5
 
+.h3-mngmt-blue{
+	font-family: Proximanovalight;
+	font-size: 30px;
+	color: #002366;
+	margin: 0 0 0 10px;
+}
+.bg-img-white{
+	width: 185px;
+	height: 200px;
+	background: white;
+	margin-left: 89px;
+	height: 60px;
+	width: 182px;
+}
+@media screen and (max-width: 480px) {
+    .founders-right {
+        margin-right: 90px;
+        border: 1px #C9C9C9 solid;
+    }
+}
+@media screen and (max-width: 480px) {
+    .founders-left {
+        margin-left: 95px;
+        margin-top: 15px;
+        border: 1px #C9C9C9 solid;
+	}
+}
+@media screen and (max-width: 480px) {
+    .founders-center {
+        margin-top: 15px;
+        margin-left: 95px;
+        border: 1px #C9C9C9 solid;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+@media screen and (max-width: 480px) {
+    .img-3-founder {
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 480px) {
+    .h2-mngmt-blue {
+        margin-left: 32px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .text-mngmt {
+        padding-left: 8%;
+        padding-right: 8%;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .text-button {
+        padding-left: 8%;
+        padding-right: 8%;
+        font-size: 33px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .h2-mngmt-blue
+ {
+        font-family: Proximanovaregular;
+    }
+}
+@media screen and (max-width: 480px) {
+    .btn-blue
+ {
+        padding: 3% 8% 3% 8%;
+        font-size: 24px;
+    }
+ }
+ @media screen and (max-width: 480px) {
+    .text-bg-blue
+ {
+     	font-size: 18px;
+     	padding: 0 12% 0 12%
+    }
+ }
+  @media screen and (max-width: 480px) {
+    .text-btn-blue
+ {
+     	font-size: 18px;
+     	text-align: center;
+     	margin: 0;
+    }
+ }
+.btn-2{
+	float: right;
+	background: transparent;
+	border:1px white solid;
+}
+.pd-col8{
+	padding-right: 0px;
+}
+.h2-mngmt-blue{
+	font-size: 45px;
+	padding-top: 5%;
+	color: #002366;
+}
+.text-mngmt{
+	font-size: 14px;
+	font-family: Proximanovaregular;
+	padding:3% 30%;
+}
+.text-button{
+	color: #002366;
+	font-size: 14px;
+}
+.btn-mngmt{
+	background-color: #179AD6;
+	padding-left: 4%;
+	padding-right: 4%;
+	margin-top: 10px;
+}
+.bg-mngmt{
+	background: #f6f6f6;
+}
+.navbar-nav .aeiou{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+}
+@media screen and (max-width: 480px) {
+    .bg-blue {
+        visibility: hidden;
+    }
+}
