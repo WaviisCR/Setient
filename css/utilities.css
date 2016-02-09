@@ -1,48 +1,48 @@
 /*Global*/
 *{
-	font-family: "Proximanovalight";
+    font-family: "Proximanovalight";
 }
 
 @font-face{
-	font-family: Proximanovabold;
-	src: url(../fonts/proxima-nova/proximanova-bold-webfont.ttf);
+    font-family: Proximanovabold;
+    src: url(../fonts/proxima-nova/proximanova-bold-webfont.ttf);
 }
 @font-face{
-	font-family: Proximanovalight;
-	src: url(../fonts/proxima-nova/proximanova-light-webfont.ttf);
+    font-family: Proximanovalight;
+    src: url(../fonts/proxima-nova/proximanova-light-webfont.ttf);
 }
 @font-face{
-	font-family: Proximanovaregitalic;
-	src: url(../fonts/proxima-nova/proximanova-regitalic-webfont.ttf);
+    font-family: Proximanovaregitalic;
+    src: url(../fonts/proxima-nova/proximanova-regitalic-webfont.ttf);
 }
 @font-face{
-	font-family: Proximanovaregular;
-	src: url(../fonts/proxima-nova/proximanova-regular-webfont.ttf);
+    font-family: Proximanovaregular;
+    src: url(../fonts/proxima-nova/proximanova-regular-webfont.ttf);
 }
 
 /* Shortcuts */
 
 
 .mg-0{
-	margin: 0;
+    margin: 0;
 }
 .w-100{
-	width: 100%;
+    width: 100%;
 }
 .lh{
-	line-height: 1.5;
+    line-height: 1.5;
 }
 
 .anone{
-	text-decoration: none;
+    text-decoration: none;
 }
 .bg-img-block{
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .d-ib{
-	display: inline-block;
+    display: inline-block;
 }
 /* Util class */
 .pr-l {
@@ -115,50 +115,34 @@
  .mb-7{
     margin-bottom: 7%
  }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 9953774e938e61e35c37dce48ac20a913fa2a4a5
  .mb-0{
     margin-bottom: 0;
  }
  .mg-l-85{
     margin-left: 85px;
  }
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 680a475eda050cf13e9c89f9d939408973fdc06f
->>>>>>> 9953774e938e61e35c37dce48ac20a913fa2a4a5
 /*PADDING*/
-.pdlr-13{
-    padding-left: 14%;
-    padding-right: 14%
-}
 .pd-0{
-	padding: 0;
-}
-.pd-2{
-    padding-bottom: 2%;
+    padding: 0;
 }
 .pd-5{
-	padding: 5%;
+    padding: 5%;
 }
 
 .pd-7{
-	padding: 7%;
+    padding: 7%;
 }
 .pd-10{
-	padding: 10%;
+    padding: 10%;
 }
 .pb-5{
-	padding-bottom: 5%;
+    padding-bottom: 5%;
 }
 .pt-5{
-	padding-top:5%; 
+    padding-top:5%; 
 }
 .pl-15{
-	padding-left: 15%;
+    padding-left: 15%;
 }
  .pd-2{
     padding: 2%;
@@ -260,28 +244,28 @@
     font-weight: lighter;
 }
 .text-gray{
-	color:rgba(128, 128, 128, 0.36);
+    color:rgba(128, 128, 128, 0.36);
 }
 .large{
     font-size: xx-large;
   }
 .font{
- 	font-size: 3em;
+    font-size: 3em;
  }
  .text-center{
-	text-align: center;
+    text-align: center;
 }
 .text-left{
-	text-align: left;
+    text-align: left;
 }
 .text-right{
-	text-align: right;
+    text-align: right;
 }
 .text-white{
-	color: white;
+    color: white;
 }
 .text-gray{
-	color: rgb(83, 88, 95);
+    color: rgb(83, 88, 95);
 }
 
 /*IMAGEN*/
